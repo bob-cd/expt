@@ -3,7 +3,7 @@ version := "1.0"
       
 lazy val `bob_scala_mvp` = (project in file(".")).enablePlugins(PlayScala)
 
-scalaVersion := "2.12.2"
+scalaVersion := "2.12.6"
 
 libraryDependencies ++= Seq(
   specs2 % Test,
