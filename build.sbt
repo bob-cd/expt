@@ -11,6 +11,4 @@ libraryDependencies ++= Seq(
   "com.spotify" % "docker-client" % "8.11.2"
 )
 
-unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )  
-
       

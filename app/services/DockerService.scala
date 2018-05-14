@@ -3,8 +3,8 @@ package services
 import com.spotify.docker.client.DefaultDockerClient
 
 import scala.util.{Failure, Success, Try}
-
 class DockerService {
+
 
   def pull(image: String): Either[String, BobError] = {
     val dockerClient = DefaultDockerClient

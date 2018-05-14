@@ -5,6 +5,7 @@ import play.api.mvc.{AbstractController, ControllerComponents}
 import services.DockerService
 
 import scala.concurrent.Future
+import scala.concurrent.ExecutionContext.Implicits.global
 
 class MainController @Inject()(controllerComponents: ControllerComponents)
   extends AbstractController(controllerComponents) {
